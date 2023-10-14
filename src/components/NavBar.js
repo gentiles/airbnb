@@ -4,7 +4,7 @@ export default function NavBar(){
     return(
         <div>
                 <section>
-                    NavBar here
+                  <h1>NavBar</h1>
                 </section>
         </div>
     )
