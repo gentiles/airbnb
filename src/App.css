@@ -66,3 +66,15 @@ font-weight: 300;
 line-height: 110%; /* 13.2px */
 
 }
+.Card--details{
+  /* position: absolute;
+  line-height: 15px; */
+}
+.Name--Cards{
+  display:flex;
+  margin-top: 0px;
+}
+.Price{
+  position: relative;
+  margin-top: 0px;
+}
