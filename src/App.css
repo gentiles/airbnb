@@ -4,5 +4,16 @@
   height: 25px;
   padding-top: 30px;
   padding-left: 30px;
+ 
 }
 
+.NavBar {
+  width:auto;
+  height: 80px;
+  /* fill: #FFF;
+  filter: drop-shadow(0px 2.9825618267059326px 7.456404209136963px rgba(0, 0, 0, 0.10));
+ */
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ justify-content: center;
+
+}
