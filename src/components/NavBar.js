@@ -4,7 +4,7 @@ export default function NavBar(){
     return(
         <div>
                 <section>
-                  <h1>NavBar</h1>
+                  <img className="NavBar--logo" src="../image/airbnb.png" />
                 </section>
         </div>
     )
