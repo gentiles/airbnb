@@ -8,14 +8,32 @@ function App() {
     <div>
       <NavBar />
       <Hero />
-      <Cards
-        img ="../image/swimming_v2.png"
-        rating ="5.0 (6)"
-        location =". USA"
-        name = "Life lessons with Katie Zaferes"
-        price = "From $136"
-      />
-    </div>
+            <div className='container'>
+              <Cards
+                img ="../image/swimming_v2.png"
+                rating ="5.0 (6)"
+                location =". USA"
+                name = "Life lessons with Katie Zaferes"
+                price = "From $136"
+              />
+              <Cards
+                img ="../image/swimming_v2.png"
+                rating ="5.0 (6)"
+                location =". USA"
+                name = "Life lessons with Katie Zaferes"
+                price = "From $136"
+              />
+              <Cards
+                img ="../image/swimming_v2.png"
+                rating ="5.0 (6)"
+                location =". USA"
+                name = "Life lessons with Katie Zaferes"
+                price = "From $136"
+              />
+            </div>
+
+      </div>
+      
   );
 }
 

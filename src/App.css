@@ -42,11 +42,17 @@
 }
 
 /* ///////////////////////// CARDS SECTION ////////////////////////// */
+
 .Card--Section{
+  display: flex;
+  flex-direction: column;
+  /* flex-flow: row; */
   margin-top: 50px;
   margin-left: 30px;
+ 
 }
 .Image--Card{
+  display: flex;
   width: 175px;
   height: 235px;
   flex-shrink: 0;
@@ -54,6 +60,7 @@
 }
 
 .Rating--Loc{
+  
   width: 23px;
   height: 14px;
   flex-shrink: 0;
@@ -66,15 +73,20 @@ font-weight: 300;
 line-height: 110%; /* 13.2px */
 
 }
-.Card--details{
-  /* position: absolute;
-  line-height: 15px; */
-}
+
 .Name--Cards{
   display:flex;
   margin-top: 0px;
 }
 .Price{
+  display: flex;
   position: relative;
   margin-top: 0px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
