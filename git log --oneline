@@ -1,0 +1,65 @@
+[33mcommit a03d1e456712b68d287b2da1ea824382bebfb33b[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: erwinmarin05@gmail.com <erwinmarin05@gmail.com>
+Date:   Thu Oct 19 16:52:45 2023 +0800
+
+    Done air bnd
+
+[33mcommit 43173e9c00c9aaace93c6e5e471bbb22c358d905[m
+Author: erwinmarin05@gmail.com <erwinmarin05@gmail.com>
+Date:   Tue Oct 17 00:36:00 2023 +0800
+
+    Done align Cards
+
+[33mcommit bd0b627b9abd47bd257bc567f1d56a6b7c825ac6[m
+Author: erwinmarin05@gmail.com <erwinmarin05@gmail.com>
+Date:   Sun Oct 15 06:44:52 2023 +0800
+
+    fix line height of Cards text
+
+[33mcommit f343ed6c30dabc3c78db704aef4e102dae555b1e[m
+Author: erwinmarin05@gmail.com <erwinmarin05@gmail.com>
+Date:   Sun Oct 15 06:14:23 2023 +0800
+
+    Render details cards
+
+[33mcommit 28a0036a091c1c6a0bb97c244cb9589a6723c754[m
+Author: erwinmarin05@gmail.com <erwinmarin05@gmail.com>
+Date:   Sun Oct 15 05:04:56 2023 +0800
+
+    Hero section Done
+
+[33mcommit 9f1dfbd3101f4b5bfe2b1d5f4c7863504825c665[m
+Author: erwinmarin05@gmail.com <erwinmarin05@gmail.com>
+Date:   Sun Oct 15 04:28:47 2023 +0800
+
+    some CSS link deleted
+
+[33mcommit 552cc977766a2f8f6ba3275a54bc8d9fd909ead8[m
+Author: erwinmarin05@gmail.com <erwinmarin05@gmail.com>
+Date:   Sun Oct 15 04:17:19 2023 +0800
+
+    navbar DONE
+
+[33mcommit 753ba215e29db9752c3243220b5821a284bc63a8[m
+Author: erwinmarin05@gmail.com <erwinmarin05@gmail.com>
+Date:   Sun Oct 15 04:01:34 2023 +0800
+
+    NavBar--log align properly
+
+[33mcommit a394012a77991240991ef17c189d250f52f1a054[m
+Author: erwinmarin05@gmail.com <erwinmarin05@gmail.com>
+Date:   Sat Oct 14 17:08:18 2023 +0800
+
+    link ing Navbar ok
+
+[33mcommit 9659302709471afe29a809ea535a6a3ca6a627b7[m
+Author: erwinmarin05@gmail.com <erwinmarin05@gmail.com>
+Date:   Sat Oct 14 17:06:04 2023 +0800
+
+    add navbar component
+
+[33mcommit 1d7fea4874dff483c069dbd5ea784464eb56b310[m
+Author: erwinmarin05@gmail.com <erwinmarin05@gmail.com>
+Date:   Sat Oct 14 17:01:24 2023 +0800
+
+    initialize
