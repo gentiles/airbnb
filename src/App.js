@@ -3,33 +3,28 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Hero from './components/Hero';
 import Cards from './components/Cards'
+import Data from './components/data'
+
+
 function App() {
+  const Card = Data.map((item) =>{
+    return (
+        <Cards 
+          img ={item.img}
+          rating ={item.rating}
+          location ={item.location}
+          name ={item.name}
+          price ={item.price}
+          openSpot ={item.openSpot}
+        />
+    )
+  }) 
   return (
     <div>
       <NavBar />
       <Hero />
             <div className='container'>
-              <Cards
-                img ="../image/swimming_v2.png"
-                rating ="5.0 (6)"
-                location =". USA"
-                name = "Life lessons with Katie Zaferes"
-                price = "From $136"
-              />
-              <Cards
-                img ="../image/swimming_v2.png"
-                rating ="5.0 (6)"
-                location =". USA"
-                name = "Life lessons with Katie Zaferes"
-                price = "From $136"
-              />
-              <Cards
-                img ="../image/swimming_v2.png"
-                rating ="5.0 (6)"
-                location =". USA"
-                name = "Life lessons with Katie Zaferes"
-                price = "From $136"
-              />
+              {Card}
             </div>
 
       </div>
@@ -38,3 +33,6 @@ function App() {
 }
 
 export default App;
+
+
+
