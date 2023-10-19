@@ -3,8 +3,9 @@ import React from "react";
 export default function NavBar(){
     return(
         <div>
-                <section>
-                  <h1>NavBar</h1>
+                <section className="NavBar">
+                  <img className="NavBar--logo" src="../image/airbnb.png" alt="logo" />
+                 
                 </section>
         </div>
     )

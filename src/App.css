@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+
+/* /////////////////////////NAVBAR ////////////////////////// */
+.NavBar--logo{
+  width: 82px;
+  height: 25px;
+  margin-top: 30px;
+  margin-left: 30px;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.NavBar {
+  width:auto;
+  height: 80px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ justify-content: center;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* ///////////////////////// HERO SECTION ////////////////////////// */
+.hero--bg{
+  width: 90%;
+  height: 90%;
+  justify-content: center;
+  margin-left: 30px;
+  margin-top: 30px;
+  
+}
+.text--head{
+  margin-left: 30px;
+  width: 347px;
+  font-family: Poppins;
+  font-size: 36px;
+  line-height: 110%; /* 39.6px */
+}
+.text--sub{
+  margin-left: 30px;
+  width: 320px;
+  line-height: 110%;
+  height: 56px;
+  font-size: 16px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ///////////////////////// CARDS SECTION ////////////////////////// */
+
+.Card--Section{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* flex-flow: row; */
+  margin-top: 50px;
+  margin-left: 30px;
+  position: relative;
+ 
+}
+.Image--Card{
+  display: flex;
+  width: 175px;
+  height: 235px;
+  flex-shrink: 0;
+  border-radius: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.Rating--Loc{
+  
+  width: 23px;
+  height: 14px;
+  flex-shrink: 0;
+  color: #918E9B;
+
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 110%; /* 13.2px */
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Name--Cards{
+  display:flex;
+  margin-top: 0px;
+}
+.Price{
+  display: flex;
+  position: relative;
+  margin-top: 0px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card--badge{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
 }
